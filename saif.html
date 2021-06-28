@@ -26,13 +26,13 @@
         const STUNServer = "stun:stun.l.google.com:19302";
         const TURNServer = "turn:numb.viagenie.ca";
         const serverPassword = "uscAgMf8vg7VAut";
-        const serverUserName = "rabbillDLC@gmail.com";
+        const serverUserName = "rabbilIDLC@gmail.com";
 
         const serverConfig = {
             config: {
                 'iceServers': [
-                    { url: STUNServer },
-                    { url: TURNServer, credential: serverPassword, username: serverUserName }
+                    { urls: STUNServer },
+                    { urls: TURNServer, credential: serverPassword, username: serverUserName }
                 ]
             }
         }
